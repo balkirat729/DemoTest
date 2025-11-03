@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container {
+        position: relative;
+        height: 400px;
+        width: 80%;
+        background-color: rgb(224, 159, 233);
+        margin: 30px auto;
+        padding: 10px;
+        border: 2px solid black;
+    }
+    .container img{
+        width: 140px;
+        height: 140px;
+        border-radius: 10px;
+        border-color: blue;
+        border: 10px;
+    }
+    .img1{
+        position: static;
+        background-color: aliceblue;
+        top: 80px;
+        left: 120px;
+    }
+    .img2{
+        position: absolute;
+        margin: 10px;
+        top: 190px;
+        left: 2px;
+     }
+     .sticky{
+        background-color: aqua;
+     }
+    </style>
+    <!--in static top left right bottom do not work it's remain staic in every case -->
+</head>
+<body>
+    <div class="container">
+        <img src="harry.jpg" alt="Static" class="img1">
+        <img src="shinchan.jpg" alt="Relative" class="img2">
+        <img src="lock.jpg" alt="absolute" class="img3">
+        <img src="landscape.jpg" alt="fixed" class="img4">
+        <p class="sticky">i am not moving anywhere </p>
+    </div>
+</body>
+</html>

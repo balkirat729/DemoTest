@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#container {
+  width: 300px;
+  aspect-ratio: 2/1;
+  border: 1px solid black; 
+  display: grid;
+  position: relative;
+  align-items: center
+  ;
+}
+
+#container > div {
+  border: 1px solid black;
+  position: absolute;
+  aspect-ratio: 1;
+}
+
+.red {
+  background-color: coral;
+  inline-size: 70px;
+  left: 0px;
+}
+
+.blue {
+  background-color: lightblue;
+  inline-size: 80px;
+  left: 100px;
+}
+
+.green {
+  background-color: lightgreen;
+  inline-size: 90px;
+  left: 200px;
+}
+</style>
+</head>
+<body>
+
+<h2>align-items: end</h2>
+
+<p>The absolute positioned grid items are aligned at the end of the grid container in the block direction.</p>
+
+<div id="container">
+  <div class="red">RED</div>
+  <div class="blue">BLUE</div>  
+  <div class="green">GREEN</div>
+</div>
+
+</body>
+</html>

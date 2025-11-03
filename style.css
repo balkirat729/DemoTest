@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(221, 224, 212);
+    background-image: url(lock.jpg);
+    background-position: center;
+    background-size: cover;
+     background-attachment: fixed;
+}
+
+#about{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+#about:hover{
+    background-color: rgb(82, 179, 147);
+}
+#hob{
+    background-color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+box-sizing: content-box
+border;
+}
+#border{
+    border-top-style: solid;
+    border-left-style: dashed;
+    border-bottom-style: solid;
+    border-right-style: solid ;
+}
+.bb{
+    border:2px;
+    border-color: rgb(138, 223, 223);
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    color: rgb(71, 122, 165);
+}
+#image{
+    border: 2px ;
+    border-radius: 2px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    width: 200px;
+    height: 300px;
+    background-image: url(harry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 80px;
+    margin-right: 100px;
+    box-sizing: border-box;
+   
+   
+}
+#image:hover{
+    background-image: url(shinchan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
